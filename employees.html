@@ -26,24 +26,27 @@
     </nav>
   </header>
   <div class="content">
-<p>this is the employees page</p>
-<form>
-    <div class="mb-3">
-        <label for="exampleInputName1" class="form-label">Name</label>
-        <input type="name" class="form-control" id="exampleInputName" aria-describedby="emailHelp">
-      </div>
-    <div class="mb-3">
-      <label for="exampleInputEmail1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    <div class="about-us">
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
     </div>
-    <div class="mb-3">
-      <label for="exampleInputComment1" class="form-label">Comment</label>
-      <input type="comment" class="form-control" id="exampleInputComment1">
+<div id="contact" class="row">
+  <div class="col">
+    <input type="text" class="form-control" placeholder="Name" aria-label="Name">
+  </div>
+  <div class="col">
+    <input type="text" class="form-control" placeholder="Email" aria-label="Email">
+  </div>
+  <div class="col">
+    <textarea class="form-control" id="comment" rows="3" placeholder="Comment" aria-label="Comment"></textarea>
+
+  </div>
+  <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+  <section>
+    <div>
+      <li><a href="#contact">Email</a></li>
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
-    </div>
+  </section>
+</div>
 
     <script src="./assets/js/script.js"></script>
 </body>
