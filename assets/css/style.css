@@ -1,6 +1,7 @@
 :root {
     --background: rgba(108, 108, 108, 0.85);
-    --grey-blue:#a7cde2;
+    --white: white;
+    --accent: rgb(131, 255, 131);
   }
   
   *, *::before, *::after {
@@ -9,44 +10,31 @@
   
   body {
       margin: 0;
-      background: var(--grey-blue);
+      background: var(--white);
       font-family: Georgia, 'Times New Roman', Times, serif;
       font-weight: 400;
   }
   
   .content {
   height: 233px;
-  background: var(--grey-blue);
+  background: var(--white);
   position: relative;
   display: flex;
-  top: 107px;
+  top: 104px;
   }
   
   h1 {
     text-align: center;
     position: relative;
-    top: 17px;
+    top: -12px;
   }
   
-  .paragraph {
-    background: var(--grey-blue);
+  section {
+    background: var(--white);
     background-size: cover;
     place-items: center;
-    margin-left: 24px;
-    margin-top: 0px; 
-    border-left: #000 2px solid;
-    padding-left: 20px;
+    margin-top: 77px; 
     height: fit-content;
-  }
-   
-  .applications {
-      background: var(--grey-blue);
-      margin-left: 30px;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-  
-  .applications figure li {
-  margin: 31px;
   }
   
   header {
@@ -55,7 +43,6 @@
       top: 0;
       z-index: 999;
       width: 100%;
-      font-size: 150%;
       display: flex;
       height: 60px;
   }
@@ -94,7 +81,7 @@
   }
   
   nav a:hover {
-    color: #000;
+    color: var(--accent);
   }
   
   .nav-toggle:checked ~ nav {
@@ -138,7 +125,7 @@
     content: '';
     display: block;
     height: 5px;
-    background: var(--grey-blue);
+    background: var(--accent);
     position: absolute;
     top: -.75em;
     left: 0;
@@ -153,4 +140,28 @@
   
   .logo {
     grid-column: 2 / 3;
+    color: var(--white);
+    margin-top: 12px;
+  }
+
+  #contact {
+    position: absolute;
+    bottom: 0px;
+    margin-left: 44px;
+    margin-bottom: -388px;
+    padding-bottom: 89px;
+  }
+
+  #submit {
+    max-width: 74px;
+  }
+
+  .about-us {
+    max-width: 946px;
+    text-align: center;
+    margin-left: 327px;
+  }
+
+  #comment {
+    
   }
